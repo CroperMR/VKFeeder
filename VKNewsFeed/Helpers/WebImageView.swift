@@ -12,6 +12,7 @@ final class WebImageView: UIImageView {
     
     private var currentUrlString: String?
     private var emptyString: String?
+    private var lioxaxaNewString: String?
     private var emptyStringEvgeni: String?
     private var emptyStringRadnenok: String?
     

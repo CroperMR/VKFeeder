@@ -8,9 +8,10 @@
 
 import UIKit
 
-class WebImageView: UIImageView {
+final class WebImageView: UIImageView {
     
     private var currentUrlString: String?
+    private var emptyString: String?
     
     func set(imageURL: String?) {
         

@@ -14,9 +14,7 @@ final class WebImageView: UIImageView {
     private var emptyString: String?
     
     private var lioxaxaNewString: String?
-    
-    
-    
+ 
     func set(imageURL: String?) {
         
         currentUrlString = imageURL

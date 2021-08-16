@@ -12,6 +12,7 @@ final class WebImageView: UIImageView {
     
     private var currentUrlString: String?
     private var emptyString: String?
+    Private var emptyStringEvgeni: String?
     
     func set(imageURL: String?) {
         

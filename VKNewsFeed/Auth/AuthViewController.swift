@@ -8,6 +8,10 @@
 
 import UIKit
 
+struct First {
+    var one: Int
+}
+
 class AuthViewController: UIViewController {
 
     private var authService: AuthService?
@@ -15,6 +19,7 @@ class AuthViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         authService = AppDelegate.shared().authService
+      
     }
     
     @IBAction func signInTouch() {

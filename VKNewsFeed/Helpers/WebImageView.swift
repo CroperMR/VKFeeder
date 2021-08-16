@@ -13,6 +13,10 @@ final class WebImageView: UIImageView {
     private var currentUrlString: String?
     private var emptyString: String?
     
+    private var lioxaxaNewString: String?
+    
+    
+    
     func set(imageURL: String?) {
         
         currentUrlString = imageURL

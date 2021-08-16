@@ -12,7 +12,7 @@ struct First {
     var one: Int
 }
 
-class AuthViewController: UIViewController {
+final class AuthViewController: UIViewController {
 
     private var authService: AuthService?
     
